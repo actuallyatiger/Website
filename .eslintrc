@@ -6,5 +6,9 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
-  ]
+  ],
+  "rules": {
+    "quotes": ["warn", "double"],
+    "comma-dangle": ["warn", "always-multiline", { "avoidEscape": true }]
+  }
 }
