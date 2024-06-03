@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+
+  .tile > img {
+    box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    height: min(92px, 20vw);
+    width: min(92px, 20vw);
+  }
+
+}
