@@ -25,23 +25,25 @@ const App: Component = () => {
             <img src={HomeIcon} />
           </a>
         </header>
-        <Tiles title="Social Media">
-          <Tile href="https://instagram.com/actuallyatiger">
-            <img src={insta} />
-          </Tile>
-          <Tile href="https://snapchat.com/add/possiblyatiger">
-            <img src={snap} />
-          </Tile>
-          <Tile href="https://discord.com/users/525078637880410115">
-            <img src={discord} />
-          </Tile>
-          <Tile href="https://threads.net/@actuallyatiger">
-            <img src={threads} />
-          </Tile>
-          <Tile href="https://facebook.com/possiblyatiger">
-            <img src={facebook} />
-          </Tile>
-        </Tiles>
+        <main>
+          <Tiles title="Social Media">
+            <Tile href="https://instagram.com/actuallyatiger">
+              <img src={insta} />
+            </Tile>
+            <Tile href="https://snapchat.com/add/possiblyatiger">
+              <img src={snap} />
+            </Tile>
+            <Tile href="https://discord.com/users/525078637880410115">
+              <img src={discord} />
+            </Tile>
+            <Tile href="https://threads.net/@actuallyatiger">
+              <img src={threads} />
+            </Tile>
+            <Tile href="https://facebook.com/possiblyatiger">
+              <img src={facebook} />
+            </Tile>
+          </Tiles>
+        </main>
 
         <footer>
           <p>
