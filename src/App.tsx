@@ -6,7 +6,7 @@ import HomeIcon from "./assets/home.svg";
 import Tiles from "./components/Tiles";
 import Tile from "./components/Tile";
 
-import pfp from "./assets/pfp.png";
+import pfp from "./assets/pfp.webp";
 import insta from "./assets/insta.png";
 import snap from "./assets/snap.png";
 import discord from "./assets/discord.png";
