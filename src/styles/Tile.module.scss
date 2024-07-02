@@ -8,3 +8,14 @@
   }
 
 }
+
+@media (min-width: 769px) {
+
+.tile > img {
+  box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  height: 92px;
+  width: 92px;
+}
+
+}
