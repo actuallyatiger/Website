@@ -12,6 +12,10 @@ import snap from "./assets/snap.png";
 import discord from "./assets/discord.png";
 import threads from "./assets/threads.png";
 import facebook from "./assets/facebook.png";
+import linkedin from "./assets/linkedin.png";
+import github from "./assets/github.png";
+import oxford from "./assets/oxford.png";
+import email from "./assets/email.png";
 
 const App: Component = () => {
   return (
@@ -41,6 +45,20 @@ const App: Component = () => {
             </Tile>
             <Tile href="https://facebook.com/possiblyatiger">
               <img src={facebook} />
+            </Tile>
+          </Tiles>
+          <Tiles title="Professional">
+            <Tile href="https://www.linkedin.com/in/tiger-taylor">
+              <img src={linkedin} />
+            </Tile>
+            <Tile href="https://www.github.com/actuallyatiger">
+              <img src={github} />
+            </Tile>
+            <Tile href="https://users.ox.ac.uk/~kebl7725">
+              <img src={oxford} />
+            </Tile>
+            <Tile href="mailto:tigertaylor1024@gmail.com">
+              <img src={email} />
             </Tile>
           </Tiles>
         </main>
