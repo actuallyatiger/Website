@@ -1,5 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 
 import "./styles/index.scss";
 import App from "./App";
@@ -13,3 +14,5 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 }
 
 render(() => <App />, root!);
+
+injectSpeedInsights();
