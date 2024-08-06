@@ -27,6 +27,7 @@ const App: Component = () => {
           <h1>Tiger Taylor</h1>
           <a href="https://tigertaylor.xyz">
             <img src={HomeIcon} />
+            <h2>Home</h2>
           </a>
         </header>
         <main>
@@ -57,7 +58,7 @@ const App: Component = () => {
             <Tile href="https://users.ox.ac.uk/~kebl7725">
               <img src={oxford} />
             </Tile>
-            <Tile href="mailto:tigertaylor1024@gmail.com">
+            <Tile href="mailto:tiger@tigertaylor.xyz">
               <img src={email} />
             </Tile>
           </Tiles>
@@ -65,7 +66,9 @@ const App: Component = () => {
 
         <footer>
           <p>
-            &copy; All logos are subject to copyright by their respective owners
+            &copy; Tiger Taylor 2024.
+            <br />
+            All logos are the property of their respective owners
           </p>
         </footer>
       </div>
