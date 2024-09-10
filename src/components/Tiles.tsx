@@ -19,7 +19,7 @@ export default function Tiles(props: { tileset: TileSet }) {
                 `<title>${tile.name}</title>`,
               ),
             }}
-            className="flex-grow-0 basis-1/4 size-fit *:h-14 *:w-14 p-2 rounded-lg bg-white bg-opacity-20 hover:bg-opacity-30 border-2 border-white border-opacity-30 hover:border-opacity-50 fill-white transition-all duration-200 hover:cursor-pointer"
+            className="size-fit *:h-12 *:w-12 sm:*:h-14 sm:*:w-14 p-2 rounded-lg bg-white bg-opacity-20 hover:bg-opacity-30 border-2 border-white border-opacity-30 hover:border-opacity-50 fill-white transition-all duration-200 hover:cursor-pointer"
           ></a>
         ))}
       </div>
